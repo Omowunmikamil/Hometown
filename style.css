@@ -37,7 +37,7 @@ body {
 
 #top-visit {
     background-color: #dad7cd;
-    padding: 50px;
+    padding: 70px 50px;
 }
 
 #top-visit h2 {
@@ -55,7 +55,7 @@ body {
 
 .places {
     width: 300px;
-    max-height: 330px;
+    max-height: 400px;
     padding: 20px;
 }
 
@@ -86,7 +86,7 @@ body {
 #tour-guide {
     width: 500px;
     height: 300px;
-    margin: 60px auto;
+    margin: 70px auto;
     padding: 25px;
     background-color: #a3b18a;
     display: flex;
@@ -105,7 +105,7 @@ body {
 
 #mail-me {
     background-color: #dad7cd;
-    padding: 40px;
+    padding: 70px;
 }
 
 #mail-me h2 {
@@ -164,4 +164,61 @@ body {
 #mail-me button:hover {
     background: linear-gradient( to right, #344e41, #588157);
     animation: bounce 1s infinite;
+}
+
+@media screen and (max-width: 768px) {
+    #hero {
+        height: 500px;
+        padding: 20px;
+    }
+    #hero h1 {
+        font-size: 28px;
+    }
+    #hero p {
+        font-size: 18px;
+        width: 90%;
+    }
+    #top-visit h2 {
+    font-size: 25px;
+    }
+    #visit {
+        flex-direction: column;
+        align-items: center;
+    }
+    .places {
+        width: 90%;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .places img {
+        margin-bottom: 10px;
+    }
+    .places h3 {
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+    .places p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    #tour-guide {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+    #tour-guide img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    #mail-me p {
+        font-size: 20px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    #mail-me input[type="email"], textarea {
+        width: 90%;
+    }
+    
 }
