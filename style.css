@@ -95,3 +95,66 @@ body {
     border-radius: 10px;
     margin-right: 10px;
 }
+
+#mail-me {
+    background-color: #dad7cd;
+    padding: 40px;
+}
+
+#mail-me h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+#mail-me p {
+    font-size: 20px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+#mail-me form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#mail-me input[type="email"], textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Start and end at original position */
+    }
+    40% {
+        transform: translateY(-8px); /* Move up */
+    }
+    60% {
+        transform: translateY(-4px); /* Move up less */
+    }
+}
+
+#mail-me button {
+    background: linear-gradient( to left, #344e41, #588157);
+    border: none;
+    padding: 10px 26px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+    display: inline-block;
+}
+
+#mail-me button:hover {
+    background: linear-gradient( to right, #344e41, #588157);
+    animation: bounce 1s infinite;
+}
