@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #1D3557;
+    font-family: "IM Fell Great Primer SC", "Josefin Slab", serif;
+}
+
+#hero {
+    background-image: url("images/kd1.jpeg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1 {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    background-color: #344e41;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-shadow: 0 0 3px black;
+}
+
+#hero p {
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    background-color: #588157;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-shadow: 0 0 2px black;
+}
+
+#top-visit {
+    background-color: #dad7cd;
+    padding: 50px;
+}
+
+#top-visit h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#visit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.places {
+    width: 300px;
+    max-height: 330px;
+    padding: 20px;
+}
+
+.places img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-bottom: 20px;
+}
+
+.places h3 {
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.places p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#tour-guide {
+    width: 500px;
+    height: 300px;
+    margin: 60px auto;
+    padding: 25px;
+    background-color: #a3b18a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 6px 0 #344e41;
+}
+
+#tour-guide img {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
