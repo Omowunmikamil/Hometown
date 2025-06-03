@@ -28,4 +28,4 @@ Following a provided Figma Design as guide, create a Hometown website of your Ho
 
 - [Figma](https://www.figma.com/design/3888YY3KLA7UVSsjLeM9j3/Hometown-Homepage--Copy-?m=auto&t=XEek3iqtLWexSfij-6 "View the design")
 - [Solution](https://github.com/Omowunmikamil/Hometown "Check out the solution")
--[live site]( "View my design")
+- [live site](https://mhometown.netlify.app/ "View my design")
